@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '../node_modules/font-awesome/css/font-awesome.css';
 
 body {
   padding: 0;
@@ -10,4 +11,17 @@ body {
 .container {
   margin: 20px;
   display: flex;
+}
+
+.background-primary {
+  background-color: #512da8 !important;
+}
+.background-accent {
+  background-color: #ffc107 !important;
+}
+.text-floral-white {
+  color: floralwhite !important;
+}
+.flex-spacer {
+  flex: 1 1 auto;
 }
