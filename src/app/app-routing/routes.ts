@@ -1,4 +1,4 @@
-import { Routes} from '@angular/router';
+import { Routes } from '@angular/router';
 
 import { MenuComponent } from '../menu/menu.component';
 import { DishdetailComponent } from '../dishdetail/dishdetail.component';

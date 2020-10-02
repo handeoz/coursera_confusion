@@ -11,8 +11,7 @@ export class LoginComponent implements OnInit {
   user = {username: '', password: '', remember: false};
   constructor(public dialogRef: MatDialogRef<LoginComponent>) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   onSubmit() {
     console.log('User: ', this.user);
