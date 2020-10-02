@@ -53,7 +53,6 @@
     </mat-card>
   </div>
 
-
   <div fxFlex>
     <mat-card-header>
       <mat-card-title>
@@ -74,4 +73,8 @@
         </mat-list>
       </div>
     </mat-card-content>
+    <div fxFlex [hidden]="leaders">
+      <mat-spinner></mat-spinner><h4>Loading . . . Please Wait!</h4>
+    </div>
   </div>
+</div>
